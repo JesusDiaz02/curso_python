@@ -18,13 +18,11 @@ def area_circulo():
 area_circulo()
 
 #ejercicio2
-def lista_numeros():
-    lista = []
-    i = 0
-    while i <=10000:
-        num = float(input("ingresa un numero: "))
-        lista.append(num)
-        i += 1 
-        print(len(lista))
 
-lista_numeros()
+def medida(*tupla):
+    return len(tupla)
+    for i in  tupla:
+        print(i)
+    return len(tupla)
+
+print(medida(2, 3 ,4 ,5,5 ,2,3 ,4,8))
