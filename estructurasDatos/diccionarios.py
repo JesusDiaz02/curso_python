@@ -1,4 +1,4 @@
-diccionario = {'nombre' : "yisus" , 'apellido' : 12345, 'estatura': 1.91}
+'''diccionario = {'nombre' : "yisus" , 'apellido' : 12345, 'estatura': 1.91}
 
 print(diccionario)
 print(diccionario.keys())
@@ -9,12 +9,12 @@ print(diccionario["estatura"])
 diccionario["peso"] = "105kg"
 print(diccionario)
 diccionario['nombre'] = "jesus"
-print(diccionario)
+print(diccionario)'''
 
 
 
 #metodos diccionarios
-'''diccionario = {1 : 2 , 2 : 3 , 3 : 4 }
+diccionario = {1 : 2 , 2 : 3 , 3 : 4 }
 diccionario2 = {4: 5, 5: 6}
 
 print(diccionario)
@@ -30,4 +30,4 @@ diccionario.update(diccionario2)
 print(diccionario)
 
 diccionario.copy()
-print(diccionario)'''
+print(diccionario)
