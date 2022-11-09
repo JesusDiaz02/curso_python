@@ -26,8 +26,8 @@ print(a.cuenta())
 
 print('objeto2')
 
-b = B()
+b = B()  
 print(b.cuenta())
 b.incrementar()
 print(b.cuenta())
-#print(b.__contador)
+
